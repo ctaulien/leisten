@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm -it -v $(pwd)/src:/root/src:Z --name leisten leisten perl -w src/leisten.pl
